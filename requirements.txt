@@ -1,0 +1,6 @@
+Flask==0.12
+face-recognition==1.2.2
+face-recognition-models==0.3.0
+numpy==1.11.3+mkl
+Pillow==4.0.0
+dlib==19.10.0
