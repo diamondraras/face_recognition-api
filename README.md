@@ -29,8 +29,7 @@ If one or more faces were found, we get a json response (name and base64 image)
     {
         "name" : "Diams",
         "string_img" : "iVBORw0KGgoAAAANSUhEUgAAAGsAAABrCAIAAAD/3etbAAA5WElEQVR4nHW9244kSZIldo6IqrlHXqq..."
-    },
-    ...
+    }
 
 ]
 ```
@@ -70,7 +69,7 @@ the response return all saved faces
     {
         "name" : "Safdj",
         "string_img" : "iVBORw0KGgoAAAANSUhEUgAAAGwAAABrCAIAAAAdAfAiAABAeUlEQVR4nHX9Xa8tW3IdiI0RMWdmrrX2Pver..."
-    },
-    ...
+    }
+    
 ]
 ```
