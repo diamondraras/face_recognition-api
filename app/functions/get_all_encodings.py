@@ -3,7 +3,7 @@ import pickle
 
 def get_all_encodings():
 
-    path="faces/"
+    path="./faces/"
     try:
         names = [row for row in os.listdir(path) if not(os.path.isfile(path+"/"+row))]
     except FileNotFoundError as e:
@@ -13,7 +13,7 @@ def get_all_encodings():
     for name in names:
         try:
 
-            with open(path+'\\'+name+'\\'+name, 'rb') as file:
+            with open(path+'/'+name+'/'+name, 'rb') as file:
                 temp = list()
                 my_depickler = pickle.Unpickler(file)
                 try:

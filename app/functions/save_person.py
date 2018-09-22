@@ -4,7 +4,7 @@ import numpy
 import pickle
 
 def save_person(face, name):
-    path="faces"+'\\'+name
+    path="./faces"+'/'+name
     try:
         os.mkdir(path)
     except FileExistsError as e:
@@ -15,7 +15,7 @@ def save_person(face, name):
     except ValueError as e:
         last_index = 0
     last_index = int(last_index) +1
-    filename = path+'\\'+name+'_'+str(last_index)+'.png'
+    filename = path+'/'+name+'_'+str(last_index)+'.png'
     face.save(filename)
     try:
         one_face_encoding =face_recognition.face_encodings(numpy.array(face))[0]

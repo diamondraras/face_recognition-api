@@ -19,7 +19,7 @@ No server will be started on port _9999_
 1. To simply get and recognize faces in one image
 
 ```bash
-$ curl -F 'image=@myImage.png' http://localhost:9999:recognize
+$ curl -F 'image=@myImage.png' http://localhost:9999/recognize
 ```
 
 If one or more faces were found, we get a json response (name and base64 image)
@@ -51,7 +51,7 @@ if there is no error the answer will be
 3. To simply get all known faces
 
 ```bash
-$ curl http://localhost:9999
+$ curl http://localhost:9999/get_all_faces
 ```
 
 the response return all saved faces
