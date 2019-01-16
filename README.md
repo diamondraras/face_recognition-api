@@ -1,4 +1,4 @@
-# face_recognition-api with python
+# face_recognition-api restful with python
 A simple face_recgnition webservice api with flask
 
 ## Installation
